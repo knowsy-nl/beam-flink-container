@@ -12,7 +12,7 @@ spec:
     spec:
       containers:
       - name: jobmanager
-        image: flink:alpine
+        image: flink:latest
         args:
         - jobmanager
         ports:

@@ -12,7 +12,7 @@ spec:
     spec:
       containers:
       - name: taskmanager
-        image: flink:alpine
+        image: flink:latest
         args:
         - taskmanager
         ports:
